@@ -6,7 +6,7 @@
 
 int main(void)
 {
-	char key;
+	char key = NULL;
 
 	printf("Hello,world!\n");
 	
