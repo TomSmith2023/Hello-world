@@ -4,14 +4,24 @@
 
 #define		OK	0
 
+int Helloworld(void);
+
 int main(void)
 {
 	char key = NULL;
 
-	printf("Hello,world!\n");
-	
+	Helloworld();
+
 	key = getchar();
 
 	return OK;
 
 } //main   
+
+int Helloworld(void)
+{
+	printf("Hello,world!\n");
+
+	return OK;
+
+} //Helloworld
